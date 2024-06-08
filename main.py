@@ -152,7 +152,7 @@ def send_message():
                     time.sleep(speed)
             except Exception as e:
                 
-                print(f"Error while sending message using token {
+                print(f"Error while sending message using token 
                       access_token}: {comment}")
                 print(e)
                 time.sleep(30)
