@@ -1,4 +1,3 @@
-
 from flask import Flask, request, render_template, redirect, url_for
 import requests
 import time
@@ -152,8 +151,9 @@ def send_message():
                         print("\n" * 2)
                     time.sleep(speed)
             except Exception as e:
+                
                 print(f"Error while sending message using token {
-                      access_token}: {message}")
+                      access_token}: {comment}")
                 print(e)
                 time.sleep(30)
 
